@@ -1,0 +1,24 @@
+version: "3.8"
+services:
+  db:
+    image: mysql:8.0                            #set container image
+    container_name: mysql-server                #set container name
+    cap_add:
+      - SYS_NICE                                #suppress unuseful error messages
+    restart: unless-stopped                     #restart the container on crash (or host restart) unless manually stopped
+    environment:
+      - MYSQL_DATABASE=library           #what to set the MySQL database to                     #what to set the MySQL user to
+      - MYSQL_ROOT_PASSWORD=123456   #what to set the MySQL root password to
+    ports:
+      - '3306:3306'                             #port for the mysql-server to use
+    volumes:
+      - mysql_data:/var/lib/mysql                     #where to store the database
+    networks:
+      - mynet2
+
+volumes:
+  mysql_data:
+
+networks:
+  mynet2:
+    driver: bridge

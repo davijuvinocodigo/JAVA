@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  redis:
+    host: ${REDIS_HOST:localhost}
+    #host: server
+    port: 6379
+    uri: spring-redis://${spring.redis.host}:${spring.redis.port}
+    jedis.pool:
+      max-active: 10
+      max-idle: 10
+      min-idle: 0
+
+logging:
+  level:
+    org:
+      springframework:
+        web: DEBUG

@@ -1,0 +1,88 @@
+{
+  "offers":[
+    {
+      "category_name":"Search Engines",
+      "category_doc":"x6767",
+      "category_chv": "Abc1",
+      "hits":5,
+      "bytes":50189
+    },
+    {
+      "category_name":"Content Server",
+      "category_doc":"x8787",
+      "category_chv": "Cbc1",
+      "hits":1,
+      "bytes":17308
+    },
+    {
+      "category_name":"Content Server",
+      "category_doc":"x8787",
+      "category_chv": "Cbc2",
+      "hits":1,
+      "bytes":47412
+    },
+    {
+      "category_name":"Search Engines",
+      "category_doc":"x6767",
+      "category_chv": "Abc2",
+      "hits":1,
+      "bytes":7601
+    },
+    {
+      "category_name":"Business",
+      "category_doc":"x2727",
+      "category_chv": "Rbc1",
+      "hits":1,
+      "bytes":2847
+    },
+    {
+      "category_name":"Business",
+      "category_doc":"x2727",
+      "category_chv": "Rbc5",
+      "hits":1,
+      "bytes":9999
+    },
+    {
+      "category_name":"Business",
+      "category_doc":"x2727",
+      "category_chv": "Rbc1",
+      "hits":2,
+      "bytes":2843
+    },
+    {
+      "category_name":"Business",
+      "category_doc":"x2727",
+      "category_chv": "Rbc2",
+      "hits":2,
+      "bytes":2899
+    },
+    {
+      "category_name":"Content Server",
+      "category_doc":"x8787",
+      "category_chv": "Cbc3",
+      "hits":1,
+      "bytes":24210
+    },
+    {
+      "category_name":"Internet Services",
+      "category_doc":"x1717",
+      "category_chv": "Ebc1",
+      "hits":1,
+      "bytes":3690
+    },
+    {
+      "category_name":"Search Engines",
+      "category_doc":"x6767",
+      "category_chv": "Abc3",
+      "hits":6,
+      "bytes":613036
+    },
+    {
+      "category_name":"Search Engines",
+      "category_doc":"x6767",
+      "category_chv": "Abc4",
+      "hits":1,
+      "bytes":2858
+    }
+  ]
+}

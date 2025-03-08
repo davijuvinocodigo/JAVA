@@ -1,0 +1,9 @@
+com\baeldung\camel\exception\ExceptionHandlingWithDoTryRouteUnitTest.class
+com\baeldung\camel\conditional\ConditionalHeaderRouterUnitTest.class
+com\baeldung\camel\conditional\ConditionalBeanRouterUnitTest.class
+com\baeldung\camel\boot\testing\GreetingsFileRouterUnitTest.class
+com\baeldung\camel\exception\ExceptionHandlingWithExceptionClauseRouteUnitTest.class
+com\baeldung\camel\exception\IllegalArgumentExceptionThrowingProcessorUnitTest.class
+com\baeldung\SpringContextTest.class
+com\baeldung\camel\conditional\ConditionalBodyRouterUnitTest.class
+com\baeldung\camel\exception\ExceptionThrowingRouteUnitTest.class

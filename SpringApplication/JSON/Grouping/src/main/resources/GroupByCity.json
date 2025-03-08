@@ -1,0 +1,22 @@
+{
+ "data": [
+    {
+      "id": 459,
+      "business_name": "Testosvaldo de Testousa",
+      "city": "Testolandia",
+      "city_cod": 14
+    },
+    {
+      "id": 472,
+      "business_name": "teste trr",
+      "city": "Belo Horizonte",
+      "city_cod": 12
+    },
+    {
+      "id": 473,
+      "business_name": "teste trr",
+      "city": "Belo Horizonte",
+      "city_cod": 12
+    }
+  ]
+}

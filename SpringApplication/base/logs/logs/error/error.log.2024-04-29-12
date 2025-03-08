@@ -1,0 +1,33 @@
+12:55:27.309 logback [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.base.inic.service.impl.AppInfoService required a bean of type 'com.base.inic.model.repository.AppInfoRepository' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.base.inic.model.repository.AppInfoRepository' in your configuration.
+
+12:57:20.441 logback [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field appInfoRepository in com.base.inic.service.impl.AppInfoService required a bean of type 'com.base.inic.model.repository.AppInfoRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.base.inic.model.repository.AppInfoRepository' in your configuration.
+

@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  database:
+    image: redis
+    container_name: redis_db
+    ports:
+      - "6379:6379"
+    networks:
+      - mynet6
+    
+networks:
+  mynet6:
+    driver: bridge
