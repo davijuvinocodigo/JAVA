@@ -1,9 +1,7 @@
 package com.techgeeknext.model;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+import lombok.*;
 
 import jakarta.persistence.*;
 import java.util.HashSet;
@@ -12,12 +10,14 @@ import java.util.Set;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
+@Getter
+@Setter
 @Entity
 @Table(name = "organization")
 public class Organization {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
     @Column(name = "name")
@@ -27,30 +27,9 @@ public class Organization {
     @JsonManagedReference
     private Set<Employees> employees = new HashSet<>();
 
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Set<Employees> getEmployees() {
-        return employees;
-    }
 
     public void setEmployees(Set<Employees> employees) {
         this.employees = employees;
-        for (Employees emp : employees) {
-            emp.setOrganization(this);
-        }
+        employees.forEach(e -> e.setOrganization(this));
     }
 }
