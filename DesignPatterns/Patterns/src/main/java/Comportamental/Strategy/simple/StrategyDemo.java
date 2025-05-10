@@ -6,7 +6,7 @@ package Comportamental.Strategy.simple;
  */
 public class StrategyDemo {
     public static void main(String[] args) {
-        PaymentContext paymentContext = new PaymentContext(new CreditCard());
+        Comportamental.Strategy.simple.PaymentContext paymentContext = new PaymentContext(new CreditCard());
         paymentContext.doPayment("salitha", 100);
 
         paymentContext = new PaymentContext(new DebitCard());
