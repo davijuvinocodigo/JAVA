@@ -1,4 +1,4 @@
-package com.algaworks.algafood.api.controller;
+package com.expert.api.controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -17,11 +17,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.algaworks.algafood.domain.exception.EntidadeEmUsoException;
-import com.algaworks.algafood.domain.exception.EntidadeNaoEncontradaException;
-import com.algaworks.algafood.domain.model.Estado;
-import com.algaworks.algafood.domain.repository.EstadoRepository;
-import com.algaworks.algafood.domain.service.CadastroEstadoService;
+import com.expert.domain.exception.EntidadeEmUsoException;
+import com.expert.domain.exception.EntidadeNaoEncontradaException;
+import com.expert.domain.model.Estado;
+import com.expert.domain.repository.EstadoRepository;
+import com.expert.domain.service.CadastroEstadoService;
 
 @RestController
 @RequestMapping("/estados")

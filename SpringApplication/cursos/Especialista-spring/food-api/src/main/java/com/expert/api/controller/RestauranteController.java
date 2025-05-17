@@ -1,4 +1,4 @@
-package com.algaworks.algafood.api.controller;
+package com.expert.api.controller;
 
 import java.lang.reflect.Field;
 import java.util.List;
@@ -19,10 +19,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.algaworks.algafood.domain.exception.EntidadeNaoEncontradaException;
-import com.algaworks.algafood.domain.model.Restaurante;
-import com.algaworks.algafood.domain.repository.RestauranteRepository;
-import com.algaworks.algafood.domain.service.CadastroRestauranteService;
+import com.expert.domain.exception.EntidadeNaoEncontradaException;
+import com.expert.domain.model.Restaurante;
+import com.expert.domain.repository.RestauranteRepository;
+import com.expert.domain.service.CadastroRestauranteService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @RestController

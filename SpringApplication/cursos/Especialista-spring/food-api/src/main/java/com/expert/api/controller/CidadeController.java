@@ -1,4 +1,4 @@
-package com.algaworks.algafood.api.controller;
+package com.expert.api.controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -16,11 +16,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.algaworks.algafood.domain.exception.EntidadeEmUsoException;
-import com.algaworks.algafood.domain.exception.EntidadeNaoEncontradaException;
-import com.algaworks.algafood.domain.model.Cidade;
-import com.algaworks.algafood.domain.repository.CidadeRepository;
-import com.algaworks.algafood.domain.service.CadastroCidadeService;
+import com.expert.domain.exception.EntidadeEmUsoException;
+import com.expert.domain.exception.EntidadeNaoEncontradaException;
+import com.expert.domain.model.Cidade;
+import com.expert.domain.repository.CidadeRepository;
+import com.expert.domain.service.CadastroCidadeService;
 
 @RestController
 @RequestMapping(value = "/cidades")

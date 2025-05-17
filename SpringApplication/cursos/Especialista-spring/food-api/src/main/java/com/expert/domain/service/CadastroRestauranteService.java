@@ -1,13 +1,14 @@
-package com.algaworks.algafood.domain.service;
+package com.expert.domain.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.algaworks.algafood.domain.exception.EntidadeNaoEncontradaException;
-import com.algaworks.algafood.domain.model.Cozinha;
-import com.algaworks.algafood.domain.model.Restaurante;
-import com.algaworks.algafood.domain.repository.CozinhaRepository;
-import com.algaworks.algafood.domain.repository.RestauranteRepository;
+import com.expert.domain.exception.EntidadeNaoEncontradaException;
+import com.expert.domain.model.Cozinha;
+import com.expert.domain.model.Restaurante;
+import com.expert.domain.repository.CozinhaRepository;
+import com.expert.domain.repository.RestauranteRepository;
+
 
 @Service
 public class CadastroRestauranteService {
