@@ -11,7 +11,7 @@ public class PolimorfismoDemo {
         animal1.mover();     // Chama a versão de Cachorro
 
         animal2.emitirSom(); // Chama a versão de Gato
-        animal2.mover();     // Chama a versão da superclasse Animal
+        animal2.mover();     // Chama a versão da superclasse AnimalDomestico
 
         // Demonstração do tipo em tempo de execução
         fazerAnimalBarulho(new Cachorro());
@@ -66,7 +66,7 @@ public class PolimorfismoDemo {
  *     Princípio de substituição de Liskov:
  *         Objetos de uma superclasse podem ser substituídos por objetos de subclasses sem quebrar o programa
  *     Abstração:
- *         Permite trabalhar com conceitos genéricos (Animal) enquanto a implementação específica é tratada pelas subclasses
+ *         Permite trabalhar com conceitos genéricos (AnimalDomestico) enquanto a implementação específica é tratada pelas subclasses
  * Este é o fundamento do polimorfismo em Java através da sobrescrita de métodos, que é essencial para criar sistemas orientados a objetos flexíveis e de fácil manutenção.
  */
 
