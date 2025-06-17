@@ -1,4 +1,4 @@
-package _12AssociacaoBidirecional;
+package _11Associacao.Bidirecional.bicontacliente;
 
 public class Main {
     public static void main(String[] args) {

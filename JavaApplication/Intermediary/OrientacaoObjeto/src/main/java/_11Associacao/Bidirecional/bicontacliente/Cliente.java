@@ -1,4 +1,4 @@
-package _12AssociacaoBidirecional;
+package _11Associacao.Bidirecional.bicontacliente;
 
 import java.util.ArrayList;
 import java.util.List;
