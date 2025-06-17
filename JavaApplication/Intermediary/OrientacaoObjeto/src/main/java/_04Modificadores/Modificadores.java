@@ -56,7 +56,7 @@ class Banco {
 
 // Classe final que não pode ser herdada
 final class UtilitariosBanco {
-    private UtilitariosBanco() {}  // Construtor privado para evitar instanciação
+    private UtilitariosBanco() {}  // TesteCarro privado para evitar instanciação
 
     public static String formatarMoeda(double valor) {
         return String.format("R$ %.2f", valor);
