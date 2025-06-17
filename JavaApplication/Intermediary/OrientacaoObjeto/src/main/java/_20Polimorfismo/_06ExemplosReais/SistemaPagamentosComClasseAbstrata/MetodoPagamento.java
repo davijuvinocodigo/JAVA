@@ -1,4 +1,4 @@
-package _20Polimorfismo._05ExemplosReais.SistemaPagamentosComClasseAbstrata;
+package _20Polimorfismo._06ExemplosReais.SistemaPagamentosComClasseAbstrata;
 
 public abstract class MetodoPagamento {
     protected String identificacao;

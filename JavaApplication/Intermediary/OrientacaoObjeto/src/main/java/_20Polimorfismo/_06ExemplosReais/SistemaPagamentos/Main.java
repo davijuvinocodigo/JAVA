@@ -1,4 +1,4 @@
-package _20Polimorfismo._05ExemplosReais.SistemaPagamentos;
+package _20Polimorfismo._06ExemplosReais.SistemaPagamentos;
 
 public class Main {
     public static void main(String[] args) {
