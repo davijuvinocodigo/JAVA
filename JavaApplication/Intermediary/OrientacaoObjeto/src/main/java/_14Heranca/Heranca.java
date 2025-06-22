@@ -1,7 +1,113 @@
 package _14Heranca;
 
+
+// Classe Endereço (composição)
+class Endereco {
+    private String rua;
+    private String cidade;
+    private String estado;
+
+    public Endereco(String rua, String cidade, String estado) {
+        this.rua = rua;
+        this.cidade = cidade;
+        this.estado = estado;
+    }
+
+    // Getters
+    public String getRua() {
+        return rua;
+    }
+
+    public String getCidade() {
+        return cidade;
+    }
+
+    public String getEstado() {
+        return estado;
+    }
+
+    // Método para exibir endereço completo
+    public String getEnderecoCompleto() {
+        return rua + ", " + cidade + " - " + estado;
+    }
+}
+
+
+
+
+class Pessoa {
+    private String nome;
+    private int idade;
+    private Endereco endereco; // Composição (Pessoa TEM UM Endereco)
+
+    public Pessoa(String nome, int idade, Endereco endereco) {
+        this.nome = nome;
+        this.idade = idade;
+        this.endereco = endereco;
+    }
+
+    // Getters
+    public String getNome() {
+        return nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public Endereco getEndereco() {
+        return endereco;
+    }
+
+    // Método comum a todas as pessoas
+    public void cumprimentar() {
+        System.out.println("Olá, meu nome é " + nome);
+    }
+}
+
+
+
+
+// Classe Funcionario que herda de Pessoa
+class Funcionario extends Pessoa {
+    private String matricula;
+    private double salario;
+
+    public Funcionario(String nome, int idade, Endereco endereco,
+                       String matricula, double salario) {
+        super(nome, idade, endereco); // Chama o construtor da superclasse
+        this.matricula = matricula;
+        this.salario = salario;
+    }
+
+    // Getters específicos de Funcionario
+    public String getMatricula() {
+        return matricula;
+    }
+
+    public double getSalario() {
+        return salario;
+    }
+
+    // Método específico de Funcionario
+    public void trabalhar() {
+        System.out.println(getNome() + " está trabalhando...");
+    }
+
+    // Sobrescrita do método cumprimentar
+    @Override
+    public void cumprimentar() {
+        super.cumprimentar(); // Chama a implementação da superclasse
+        System.out.println("Sou funcionário com matrícula " + matricula);
+    }
+}
+
+
+
+
+
 // Classe principal para demonstração
-public class Main {
+public class Heranca {
     public static void main(String[] args) {
         // Criando endereços
         Endereco endereco1 = new Endereco("Rua Java, 123", "São Paulo", "SP");

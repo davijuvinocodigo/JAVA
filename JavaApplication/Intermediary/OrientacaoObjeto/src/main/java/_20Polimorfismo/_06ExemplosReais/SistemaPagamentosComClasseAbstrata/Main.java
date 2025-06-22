@@ -18,23 +18,15 @@ public class Main {
    Quando usar classes abstratas vs interfaces:
 
 Use classes abstratas quando:
-
     Você quer compartilhar código entre classes relacionadas
-
     Precisa declarar campos não estáticos/finais
-
     Quer fornecer implementações padrão para alguns métodos
-
     Precisa de métodos com diferentes níveis de acesso (protected, private)
 
 Use interfaces quando:
-
     Espera que classes não relacionadas implementem sua interface
-
     Quer especificar o comportamento de um tipo de dados
-
     Quer aproveitar a herança múltipla (uma classe pode implementar várias interfaces)
-
     Está trabalhando com lambdas e APIs funcionais
 
 Estes exemplos mostram como classes abstratas permitem maior reuso de código através de implementações compartilhadas, enquanto ainda mantêm a flexibilidade do polimorfismo.

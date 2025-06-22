@@ -10,7 +10,7 @@ final class ContaBancaria {
     // Constante estática final
     public static final double LIMITE_SAQUE_DIARIO = 1000.00;
 
-    // TesteCarro - única chance de atribuir valores aos campos finais
+    // ModificadorEstaticos - única chance de atribuir valores aos campos finais
     public ContaBancaria(String numeroConta, String titular, double saldoInicial) {
         this.numeroConta = numeroConta;
         this.titular = titular;

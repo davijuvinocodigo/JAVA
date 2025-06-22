@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class BlocoInicializacao {
 
-    // Método TesteCarro para demonstração
+    // Método ModificadorEstaticos para demonstração
     public static void main(String[] args) {
         System.out.println("=== INÍCIO DO MÉTODO MAIN ===");
 
