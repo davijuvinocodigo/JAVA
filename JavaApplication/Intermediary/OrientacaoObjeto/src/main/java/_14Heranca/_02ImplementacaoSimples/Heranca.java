@@ -1,4 +1,4 @@
-package _14Heranca;
+package _14Heranca._02ImplementacaoSimples;
 
 
 // Classe Endereço (composição)

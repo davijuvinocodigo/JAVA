@@ -1,4 +1,4 @@
-package _14Heranca.conceito;
+package _14Heranca._01Conceito;
 
 // 1. Classe Base (Superclasse)
 class Pessoa {
