@@ -1,4 +1,4 @@
-package _19Interfaces._03AtributosMetodosEstaticos;
+package _19Interfaces._03MetodosEstaticos;
 
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
@@ -311,7 +311,7 @@ class GerenciadorNotificacoesAvancado {
 
 
 
-public class AtributosMetodosEstaticos {
+public class MetodosEstaticos {
     public static void main(String[] args) {
         // Demonstrando métodos e atributos estáticos
 

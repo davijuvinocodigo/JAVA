@@ -1,4 +1,4 @@
-package _19Interfaces._02ImplementandoMultiplasInterfaces;
+package _19Interfaces._02MultiplasInterfaces;
 
 import java.time.LocalDateTime;
 import java.util.*;
@@ -194,7 +194,7 @@ class GerenciadorNotificacoesAvancado {
 
 
 
-public class ImplementandoMultiplasInterfaces {
+public class MultiplasInterfaces {
     public static void main(String[] args) {
         // Criando instâncias
         NotificacaoEmail email = new NotificacaoEmail();

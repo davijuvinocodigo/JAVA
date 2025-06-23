@@ -1,4 +1,4 @@
-package _14Heranca._03ImplementacaoGenerica;
+package _14Heranca._03Generico;
 
 enum Cargo {
     GERENTE, ANALISTA, ASSISTENTE;
