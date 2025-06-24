@@ -1,4 +1,4 @@
-package _20Polimorfismo._06ExemplosReais.SistemaPagamentos;
+package _19Interfaces._05InterfaceVsAbstrato.SistemaPagamentoInterface;
 
 
 interface MetodoPagamento {
@@ -69,7 +69,7 @@ class SistemaPagamento {
 
 
 
-public class SistemaPagamentos {
+public class SistemaPagamentoInterface {
     public static void main(String[] args) {
         SistemaPagamento sistema = new SistemaPagamento();
 

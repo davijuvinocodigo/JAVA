@@ -1,4 +1,4 @@
-package _19Interfaces._01Interface;
+package _19Interfaces._01Conceito;
 
 
 
@@ -66,7 +66,7 @@ class GerenciadorNotificacoes {
 
 
 
-public class Interface {
+public class Conceito {
     public static void main(String[] args) {
         // Criando os tipos de notificação
         Notificacao email = new NotificacaoEmail();
