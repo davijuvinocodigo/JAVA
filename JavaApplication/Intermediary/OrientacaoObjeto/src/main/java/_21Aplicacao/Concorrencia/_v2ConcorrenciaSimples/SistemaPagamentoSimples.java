@@ -1,4 +1,4 @@
-package _21Aplicacao.Concorrencia;
+package _21Aplicacao.Concorrencia._v2ConcorrenciaSimples;
 
 import java.util.concurrent.*;
 import java.util.*;
@@ -93,15 +93,31 @@ public class SistemaPagamentoSimples {
     }
 }
 
+
 /**
- * Funcionamento Básico:
- *     Métodos de Pagamento:
- *         Cada método (CartaoCredito, Pix) implementa a interface MetodoPagamento
- *         O método pagar() retorna um CompletableFuture<Boolean>
- *     Processamento Concorrente:
- *         ProcessadorPagamentos gerencia um pool de threads
- *         O método processar() executa todos os pagamentos em paralelo
- *     Simplicidade:
- *         Foco apenas no fluxo principal (sem tratamentos complexos de erro)
- *         Código enxuto e fácil de entender
+ * Estrutura Principal:
+ *     MetodoPagamento: Interface que define o contrato para todos os métodos de pagamento
+ *     CartaoCredito e Pix: Implementações concretas da interface
+ *     ProcessadorPagamentos: Classe que gerencia o processamento paralelo
+ *     SistemaPagamentoSimples: Classe principal com método main
+ * Fluxo de Execução:
+ *     O sistema cria um processador com pool de 4 threads
+ *     Configura 4 métodos de pagamento (2 cartões e 2 PIX)
+ *     Inicia o processamento assíncrono de todos
+ *     Aguarda a conclusão com processamento.get()
+ *     Finaliza o processador
+ * Detalhes Importantes:
+ *     Thread.sleep: Simula o tempo de processamento (100ms para cartão, 50ms para PIX)
+ *     Random().nextDouble(): Gera sucesso aleatório (90% cartão, 95% PIX)
+ *     CompletableFuture: Permite execução assíncrona e não-bloqueante
+ *     allOf(): Combina vários Futures em um só que completa quando todos terminam
+ */
+
+/**
+ *     Pontos Chave:
+ *         Paralelismo: Pagamentos são processados simultaneamente
+ *         Flexibilidade: Fácil adição de novos métodos de pagamento
+ *         Controle: Shutdown adequado do pool de threads
+ *         Assincronia: Não bloqueia a thread principal durante o processamento
+ * O sistema demonstra um padrão comum em aplicações financeiras, onde múltiplas operações podem ser processadas em paralelo com diferentes características para cada método de pagamento.
  */
