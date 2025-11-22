@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cf620d9f-9815-4958-ac26-9c438663f731" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aws/sqsexemplo/SqsExemploApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aws/sqsexemplo/config/SqsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aws/sqsexemplo/consumer/OrderConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aws/sqsexemplo/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aws/sqsexemplo/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aws/sqsexemplo/SqsExemploApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../exemplo1/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../exemplo1/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exemplo1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/awssqs/AwssqsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exemplo1/src/main/java/com/awssqs/AwssqsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/awssqs/config/SqlConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exemplo1/src/main/java/com/awssqs/config/SqlConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/awssqs/consumer/MyConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exemplo1/src/main/java/com/awssqs/consumer/MyConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/awssqs/consumer/MyMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exemplo1/src/main/java/com/awssqs/consumer/MyMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/awssqs/consumer/MyProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exemplo1/src/main/java/com/awssqs/consumer/MyProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../exemplo1/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/awssqs/AwssqsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exemplo1/src/test/java/com/awssqs/AwssqsApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "davijuvino"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/davijuvinocodigo/JAVA.git",
+    "accountId": "d16ef8d7-6fc4-4255-b8f9-9c7ae6dce711"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="35qTpfsNeXZPg2hjByWXXlwQxfG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/davi/Documentos/development/JAVA/SpringApplication/springaws/awssqs/exemplo2"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf620d9f-9815-4958-ac26-9c438663f731" name="Changes" comment="" />
+      <created>1763836786447</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763836786447</updated>
+    </task>
+    <servers />
+  </component>
+</project>
