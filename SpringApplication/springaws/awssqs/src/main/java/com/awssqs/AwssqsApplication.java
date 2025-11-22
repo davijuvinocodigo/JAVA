@@ -2,7 +2,6 @@ package com.awssqs;
 
 import com.awssqs.consumer.MyMessage;
 import com.awssqs.consumer.MyProducer;
-import io.awspring.cloud.sqs.operations.SqsTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -20,7 +19,8 @@ public class AwssqsApplication implements CommandLineRunner{
 
 	@Override
 	public void run(String... args) throws Exception {
-		myProducer.sendMessage("https://localhost.localstack.cloud:4566/000000000000/minha-fila", new MyMessage("meu valor de start via producer"));
+		// Simulando a criação de uma nova mensagem para enviar à fila SQS
+		myProducer.sendMessage("https://localhost.localstack.cloud:4566/000000000000/minha-fila", new MyMessage("Valor de via file SQS"));
 	}
 
 }
