@@ -1,6 +1,7 @@
 package com.awssqs;
 
 import com.awssqs.consumer.MyMessage;
+import com.awssqs.consumer.MyProducer;
 import io.awspring.cloud.sqs.operations.SqsTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -15,12 +16,11 @@ public class AwssqsApplication implements CommandLineRunner{
 	}
 
 	@Autowired
-	private SqsTemplate sqsTemplate;
+	private MyProducer myProducer;
 
 	@Override
 	public void run(String... args) throws Exception {
-		var SQS = "https://localhost.localstack.cloud:4566/000000000000/minha-fila";
-		sqsTemplate.send(SQS, new MyMessage("meu valor de start"));
+		myProducer.sendMessage("https://localhost.localstack.cloud:4566/000000000000/minha-fila", new MyMessage("meu valor de start via producer"));
 	}
 
 }
